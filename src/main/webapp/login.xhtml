@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>
+		Recruitment System
+	</title>
+</h:head>
+<h:body>
+	<h:form prependId="false">
+		<p:panel header="Login">
+			<p:outputLabel value="Login failed!" rendered="${!empty param['error']}" />
+			<p:panelGrid columns="2">
+				<p:outputLabel for="username" />
+				<p:inputText id="username" />
+				
+				<p:outputLabel for="password" />
+				<p:password id="password" />
+			</p:panelGrid>
+			<p:commandButton value="Login" ajax="false" />
+		</p:panel>
+	</h:form>
+</h:body>
+</html>

@@ -1,0 +1,61 @@
+dn: dc=tn,dc=virtela,dc=cc
+objectclass: domain
+objectclass: domainDNS
+objectclass: top
+dc: tn
+
+dn: ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalUnit
+objectclass: top
+ou: Virtela Users
+
+dn: ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalUnit
+objectclass: top
+ou: Employees
+
+dn: ou=Systems,ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalUnit
+objectclass: top
+ou: Systems
+
+dn: ou=Programming,ou=Systems,ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalUnit
+objectclass: top
+ou: Programming
+
+dn: cn=Tan\, Raf,ou=Programming,ou=Systems,ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+objectclass: user
+cn: Tan\, Raf
+sAMAccountName: rtan
+userPassword: test1
+
+dn: cn=Ramos\, Max,ou=Programming,ou=Systems,ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+objectclass: user
+cn: Ramos\, Max
+sAMAccountName: mramos
+userPassword: test2
+
+dn: cn=Reyles\, Richard,ou=Programming,ou=Systems,ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+objectclass: user
+cn: Reyles\, Richard
+sAMAccountName: rreyles
+userPassword: test3
+
+dn: cn=Barcellano\, Vivien,ou=Programming,ou=Systems,ou=Employees,ou=Virtela Users,dc=tn,dc=virtela,dc=cc
+objectclass: organizationalPerson
+objectclass: person
+objectclass: top
+objectclass: user
+cn: Barcellano\, Vivien
+sAMAccountName: vbarcellano
+userPassword: test4
