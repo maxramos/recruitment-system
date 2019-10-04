@@ -12,12 +12,12 @@
 <h:body>
 	<h:form prependId="false">
 		<p:panel header="Login">
-			<p:outputLabel value="Login failed!" rendered="${!empty param['error']}" />
+			<p:outputLabel value="Invalid Username or Password" rendered="${!empty param['error']}" />
 			<p:panelGrid columns="2">
-				<p:outputLabel for="username" />
+				<p:outputLabel for="username" value="Username" />
 				<p:inputText id="username" />
 				
-				<p:outputLabel for="password" />
+				<p:outputLabel for="password" value="Password" />
 				<p:password id="password" />
 			</p:panelGrid>
 			<p:commandButton value="Login" ajax="false" />

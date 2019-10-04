@@ -15,7 +15,7 @@ import net.virtela.recruitmentsystem.model.Role;
 import net.virtela.recruitmentsystem.service.EmployeeService;
 
 @Component
-public class JdbcLdapAuthoritiesPopulator implements LdapAuthoritiesPopulator {
+public class EmployeeLdapAuthoritiesPopulator implements LdapAuthoritiesPopulator {
 
 	@Autowired
 	private EmployeeService employeeService;
