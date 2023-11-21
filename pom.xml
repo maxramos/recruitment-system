@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
-			<version>7.0</version>
+			<version>8.0</version>
 		</dependency>
 		<dependency><!-- Required if will be deploying to Tomcat otherwise comment out this dependency -->
 		    <groupId>javax.enterprise</groupId>
